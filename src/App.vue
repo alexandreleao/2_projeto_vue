@@ -7,7 +7,9 @@
    <hr>
    <ListaComponente/>
    <hr/>
-   
+   <LifeCycle/>
+   <hr/>
+   <Pessoa/>
   </div>
 </template>
 
@@ -17,6 +19,8 @@
   import TesteComponente from  './components/TesteComponente.vue'
   import FormComponente from './components/FormComponente.vue'
   import ListaComponente from './components/ListaComponente.vue'
+  import LifeCycle from './components/LifeCycle.vue'
+ 
   
     export default{
       name: 'App',
@@ -24,8 +28,10 @@
           PrimeiroComponente,
           TesteComponente,
           FormComponente,
-          ListaComponente
-      }
+          ListaComponente,
+          LifeCycle,
+        
+      },
      
     }    
 
