@@ -20,6 +20,8 @@
   import FormComponente from './components/FormComponente.vue'
   import ListaComponente from './components/ListaComponente.vue'
   import LifeCycle from './components/LifeCycle.vue'
+  import Pessoa from './components/Pessoa.vue'
+  
  
   
     export default{
@@ -30,7 +32,7 @@
           FormComponente,
           ListaComponente,
           LifeCycle,
-        
+          Pessoa
       },
      
     }    

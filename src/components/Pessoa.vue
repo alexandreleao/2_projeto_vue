@@ -1,0 +1,28 @@
+<template>
+ <div>
+    <h2>Está é a descrição da pessoa: {{ nome }}</h2>
+ <hr>
+    <Info />
+ <hr>
+   <Form />
+ </div>
+</template>
+
+<script>
+import Info from './info'
+import Form from './Form'
+
+export default{
+    name: 'Pessoa',
+    components: {
+        Info,
+        Form
+    },
+    data(){
+        return{
+            nome: 'Alexandre',
+        }
+    }
+}
+
+</script>
