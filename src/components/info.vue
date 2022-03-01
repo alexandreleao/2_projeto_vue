@@ -13,7 +13,7 @@
        </div>
         <p v-show="mostrar_email">Mande uma mensagem para: {{ email }}</p>
         
-        <p>Para acessar o meu portfólio basta <a v-bind:href="meu_link" target="_blank">clicar aqui</a></p>
+        <p class="teste">Para acessar o meu portfólio  <a v-bind:href="meu_link" target="_blank">basta clicar aqui</a></p>
         <Picture />
     </div>
     
@@ -49,3 +49,12 @@
 }
 
 </script>
+
+<style>
+.paragrafo-pai{
+
+  color: red;
+
+}
+
+</style>
